@@ -4,9 +4,15 @@ static void main(String... args){
     float b=a;
     char c ='a';
     String s="hello";
-    Byte n=011;
     double d=(int)a;
-    System.out.println(a+b+c+s+n);
+    System.out.println(a+b+c+s);
     System.out.println(d);
+    System.out.println();
+    if (a==1010){
+        System.out.println("even");
+    }
+    else{
+        System.out.println("false");
+    }
 }
 }
